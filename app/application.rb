@@ -9,6 +9,7 @@ class Application
       resp.write "Morning"
     else
       resp.write "Afternoon"
+      resp.write "Morning"
     end
     
     resp.finish
