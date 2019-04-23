@@ -7,7 +7,6 @@ class Application
     
     if morning_t === Time.now
       resp.write "Morning"
-      
     else
       resp.write "Afternoon"
     end
